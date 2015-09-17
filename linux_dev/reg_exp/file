@@ -1,0 +1,72 @@
+
+
+
+====================================
+Setting up Themes for Ubuntu Unity
+====================================
+* Install Unity Tweak
+* Install Ubuntu Tweak
+* Get fonts online and install normally
+
+http://askubuntu.com/questions/520379/where-can-i-find-more-unity-themes
+
+* http://snwh.org/moka/download/
+	sudo add-apt-repository ppa:moka/stable
+	sudo apt-get update
+	#sudo apt-get install orchis-gtk-theme
+
+* https://numixproject.org/
+* https://launchpad.net/~noobslab/+archive/ubuntu/themes?field.series_filter=utopic
+
+
+***Tip***
+After adding a "ppa", software from that repository shows up in the Ubuntu Software center.
+
+
+
+
+
+============================
+Setting up Android Studio IDE
+============================
+Install JDK (Oracle or OpenJDK)
+
+Download Android Studio package - contains installation instructions
+
+Get installation instructions for KVM here:
+	- https://help.ubuntu.com/community/KVM/Installation
+
+***I ran into an issue trying to run the IDE whisch worked on my b32bit version of Ubuntu on my newly installed 64bit version. I fixed it by intalling a tool:
+	lib32stdc++6	 -	(Full instructions here ---> http://stackoverflow.com/questions/28847151/unable-to-install-android-studio-in-ubuntu)
+
+
+
+
+============================
+Update pip
+============================
+	pip install --upgrade pip		# check to see if command is correct
+	
+	
+
+============================
+Configure system defaults
+============================
+	sudo update-alternatives --all
+	
+
+===================================
+Set 'terminator' as default gnome-terminal
+===================================
+	 gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
+	 sudo update-alternatives --config x-terminal-emulator
+
+
+
+===================================
+ --- > IRC
+===================================
+	/server [server_address] [server_port]			# Connect to specified server through specified port. [commonly used port is 6667]
+	/join #[channel_name]								# Join specified channel. Some channels use '##' as prefix
+	/msg NickServ help									# Get list of commands from NickServ (a special IRC nick-service bot)
+

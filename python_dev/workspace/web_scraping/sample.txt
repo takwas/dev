@@ -1,0 +1,4 @@
+Some sample text
+In a new file
+
+For Python to play with

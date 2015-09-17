@@ -1,0 +1,10 @@
+*~
+*.swp
+git_clones
+my_virtualenvs
+java_dev
+android_dev
+eclipse
+web_dev
+linux_dev/git_demo/first_repo
+linux_dev/git_demo/second_repo
