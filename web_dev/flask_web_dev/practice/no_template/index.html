@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-widtth, initial-scale=1"/>
+
+<title>Flask Bootstrap Demo</title>
+
+<!--Load Bootstrap css-->
+<link rel="stylesheet" href="../gen_res/bootstrap-3.2.0-dist/css/bootstrap.min.css" type="text/css"/>
+<!--Load Bootstrap theme-->
+<link rel="stylesheet" href="../gen_res/bootstrap-3.2.0-dist/css/bootstrap-theme.min.css" type="text/css"/>
+
+
+<!--ADD IE CONDITIONS LATER-->
+</head>
+<body>
+
+<!--------------BEGIN DOCUMENT BODY------------------>
+
+
+<h1>Simple Flask - Bootstrap Demo Page</h1>
+	
+
+<div class="page-content-wrapper">
+	<div class="container">
+		<div class="row" id="menu-bar">
+			<div class="col-md-3 col-xl-*">Home</div>
+			<div class="col-md-3 col-xl-*">About</div>
+			<div class="col-md-3 col-xl-*">Contact</div>
+			<div class="col-md-3 col-xl-*">Others</div>
+		</div>
+		<div class="row" id="rigid-area">
+			<div><br/><br/><br/><br/><br/><br/></div>
+		</div>
+		<div class="row" id="main-content">
+			<div class="col-md-1 col-xl-*"></div>
+			<div class="col-md-7 col-xl-*">About</div>
+			<div class="col-md-3 col-xl-*">
+				<form role="form">
+					<div class="form-group">
+					    <label for="exampleInputEmail1">Registration no.</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter student reg. no.">
+					</div>
+					<div class="form-group">
+					    <label for="exampleInputPassword1">Password</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					</div>
+					<div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="remember-me"> Remember me
+					    </label>
+					</div>
+					<button type="submit" class="btn btn-default">Login</button>
+					<br/><br/>
+					<div class="checkbox">
+					    <strong>
+					      You have been logged in succesfully!
+					    </strong>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-1 col-xl-*"></div>
+		</div>
+	</div><!--End container-->
+</div>
+
+
+
+<!--------------END DOCUMENT BODY------------------------------>
+
+
+<!--Load jQuery-->
+<!--Bootstrap's JS is dependent on jQuery-->
+<script src="../gen_res/jquery/jquery-1.10.2.min.js"></script>
+<!--Load Bootstrap JS-->
+<script src="../gen_res/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
