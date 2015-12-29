@@ -1,2 +1,3 @@
-# tinker_with_code
-A mirror for my entire development space.
+# dev
+
+A mirror for my local development space.
